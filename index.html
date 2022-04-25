@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+        <form action="https://fom.in.ua/echo">
+        <h1>CAR.UA</h1>
+        <label for="Car model">Марка Авто</label>
+        <select name="Car model" id="Car model">
+        <option value="Audi">Audi</option>
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="Opel">Opel</option>
+        <option value="Porsche">Porsche</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Volvo">Volvo</option>
+        <option value="Volkswagen">Volkswagen</option>
+        </select>
+         <br></br>
+         <label for="Body type">Тип кузова</label>
+        <select name="Body type" id="Body type">
+        <option value="Coupe">Купе</option>
+        <option value="Sedan">Седан</option>
+        <option value="Station wagon">Универсал</option>
+        <option value="hatchback">Хэтчбек</option>
+        <option value="Crossover">Кроссовер</option>
+        <option value="Cabriolet">Кабриолет</option>
+        </select>
+         <br></br>
+         <label for="Producer country">Страна производитель</label>
+        <select name="Producer Coupe" id="Producer country" multiple>
+        <option disabled>Страна производитель</option>
+        <option value="Italy">Италия</option>
+        <option value="Japan">Япония</option>
+        <option value="France">Франция</option>
+        <option value="Germany">Германия</option>
+        <option value="Belgium">Бельгия</option>
+        <option value="Canada">Канада</option>
+        </select>
+         <br></br>
+        <label>
+         <label for="Price">Цена</label>
+        <select name="Price" id="Price">
+            <option value="USD">USD $</option>
+            <option value="EUR">EUR &#8364</option>
+            <option value="ГРН">ГРН &#8372</option>
+            <input type="number" min="0"/>
+            <input type="number" max="100000000"/>
+        </label>
+        <br></br>
+        <label for="Year">Год выпуска</label>
+        <input type="number" min="1990"/>
+        <input type="number" min="1990" max="2022"/>
+        <br><br/>
+        <label for="Сondition">Состояние</label>
+        <label>
+            <input type="radio" name="condition">
+            Битая
+            <input type="radio" name="condition">
+            Новая
+            <input type="radio" name="condition">
+            В кредите
+            <input type="radio" name="condition">
+            Не растаможенная
+        </label>
+        <br></br>
+        <label for="Fuel type">Тип топлива</label>
+        <select name="Fuel type" id="Fuel type">
+        <option value="Petrol">Бензин</option>
+        <option value="Diesel">Дизель</option>
+        <option value="Gas">Газ</option>
+        </select>
+        <br></br>
+        <label for="Gearbox type">Тип коробки передач</label>
+        <select name="Gearbox type" id="Gearbox type">
+        <option value="Mechanics">Механика</option>
+        <option value="Automatic">Автомат</option>
+        </select>
+        <br></br>
+        <label for="color">Цвет</label>
+        <select name="Color" id="Color">
+        <option value="White">Белый</option>
+        <option value="Black">Черный</option>
+        <option value="Grey">Серый</option>
+        <option value="Blue">Синий</option>
+        <option value="Red">Красный</option>
+        <option value="Yellow">Желтый</option>
+        <input type="color"/>
+        </select>
+        <br></br>
+        <label for="Comfort">Комфорт</label>
+        <br><br/>
+        <label>
+            <input type="checkbox">
+            Кожаный салон
+            <br><br/>
+            <input type="checkbox">
+            Люк
+            <br><br/>
+            <input type="checkbox">
+            Бортовой компьютер
+            <br><br/>
+            <input type="checkbox">
+            Климат контроль
+            <br><br/>
+            <input type="checkbox">
+            Подогрев сидений
+            <br><br/>
+            <input type="checkbox">
+            Парктроник
+            <br><br/>
+        </label>
+        <input type="submit" value="Сохранить"/>
+        <input type="reset" value="Сбросить"/>
+    </form>
+    <br><br/>
+    <a href="./pages/authorization.html">Авторизация</a>
+    <a href="./pages/registration.html">Регистрация</a>
+    <a href="#">Поиск</a>
+</body>
+</html>
